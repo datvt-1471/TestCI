@@ -63,7 +63,7 @@ public class MainActivityTest {
     @Test
     public void testResult() throws Exception {
         valueX.setText("8");
-        valueY.setText("1");
+        valueY.setText("2");
         addButton.performClick();
         assertThat(result.getText().toString(), equalTo("9"));
     }
